@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './chatbox.css'
 import ChatBox from './components/chatbox'
 import ChatWindow from './components/chatwindow'
+import Reviews from './containers/reviews'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div>
         <ChatBox />
         <ChatWindow />
+        <Reviews />
       </div>
     );
   }
